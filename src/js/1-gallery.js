@@ -84,9 +84,6 @@ function createImages(img) {
     ulHolder.appendChild(liHolder);
 
     const image = liHolder.querySelector('img');
-    image.addEventListener('click', event => {
-      event.preventDefault();
-    });
   });
 }
 
